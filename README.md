@@ -70,9 +70,9 @@ CREATE TABLE TB_KEY_AI
 
 * 测试结果详细
 
-> 脚本=sqlite,版本=v1,结果=true
-> 脚本=sqlite,版本=v2,结果=true
-> 脚本=sqlite,版本=v3,结果=true
+> 脚本=sqlite,版本=v1,结果=true  
+> 脚本=sqlite,版本=v2,结果=true  
+> 脚本=sqlite,版本=v3,结果=true  
 
 
 ### Mysql sql to Sqlite Db ###
