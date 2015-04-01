@@ -41,7 +41,8 @@ Evolve your Database Schema easily and reliably across all your instances
 |V2__KEY.sql   | 有 | 无 |√|
 |V3__KEYAndAI.sql| 有 | 有 |√|
 
-Sqlite脚本详细：
+
+* Sqlite脚本详细
 
 ````sql
 -- V1__COMMON.sql
@@ -77,11 +78,11 @@ CREATE TABLE TB_KEY_AI
 
 ### Mysql sql to Sqlite Db ###
 
-|版本|主键|自增长|结果|
-|----------------|----|---|-|
-|V1__COMMON.sql| 无 | 无 |×|
-|V2__KEY.sql   | 有 | 无 |×|
-|V3__KEYAndAI.sql| 有 | 有 |×|
+|版本            |主键|自增长|结果|
+|----------------|----|---|-----|
+|V1__COMMON.sql|无|无|×|
+|V2__KEY.sql|有|无|×|
+|V3__KEYAndAI.sql|有|有|×|
 
 * MySql脚本详细
 
