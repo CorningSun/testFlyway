@@ -16,19 +16,13 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>corning.common</groupId>
-			<artifactId>runtime</artifactId>
+			<artifactId>corning.common.drivers</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>corning.common</groupId>
-			<artifactId>apache</artifactId>
+			<artifactId>corning.common.apache</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 		<dependency>
@@ -65,7 +59,16 @@
 				</excludes>
 			</resource>
 			<resource>
+				<directory>src/test/java</directory>
+				<includes>
+					<include>**</include>
+				</includes>
+			</resource>
+			<resource>
 				<directory>src/main/resource</directory>
+				<includes>
+					<include>**</include>
+				</includes>
 			</resource>
 		</resources>
 		<plugins>
